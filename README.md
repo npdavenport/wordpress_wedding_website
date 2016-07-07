@@ -1,1 +1,1 @@
-# wordpress_wedding_website
+This is a wedding website theme for WordPress.  I created this for my wife's photography business.  I built the site using the Bootstrap framework.  After creating the website, I ported it over for use with WordPress.  
