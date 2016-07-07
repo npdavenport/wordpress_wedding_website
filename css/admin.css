@@ -1,0 +1,51 @@
+.oe-vendor-table {
+	margin: 0;
+	width: 100%;
+	border: 1px solid #dfdfdf;
+	border-spacing: 0;
+	background-color: #f9f9f9;
+}
+
+.oe-vendor-table tr {
+	vertical-align: top;
+	width: 100%;
+}
+
+.oe-vendor-table thead th {
+	padding: 5px 8px 8px;
+	background-color: #f1f1f1;
+}
+
+.oe-vendor-table th.oe-left, 
+	.oe-vendor-table td.oe-left {
+	width: 38%;
+}
+
+.oe-vendor-table th td {
+	vertical-align: center;
+}
+
+.oe-vendor-table th span {
+	vertical-align: middle;
+}
+
+.oe-vendor-table input {
+	width: 96%;
+	margin: 8px;
+}
+
+.oe-vendor-table select {
+	width: 96%;
+	margin: 8px;
+}
+
+.oe-vendor-table .oe-submit {
+	border: 0;
+	float: none;
+	padding: 0 8px 8px;
+}
+
+.oe-vendor-table .oe-submit input {
+	margin: 8px;
+	width: auto;
+}

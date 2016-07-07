@@ -1,0 +1,48 @@
+/*
+    Theme Name:     One Eleven Wedding Photography
+    Theme URI:      http://www.oneelevenweddings.com/
+    Description:    Wedding photography theme designed specifically for One Eleven Wedding Photography
+    Version:        1.0
+    Author:         Nate Davenport
+    Author URI:     http://www.oneelevenweddings.com/
+ */
+@import url("css/bootstrap.min.css");
+@import url("css/master.min.css");
+
+/* *********************************
+    Envira Gallery Styling
+********************************** */
+.envira-supersize .envirabox-skin {
+  background-color: transparent !important;
+  -webkit-box-shadow: none !important;
+  -moz-box-shadow: none !important;
+  box-shadow: none !important;
+}
+.envira-supersize .envirabox-outer {
+  background-color: rgba(0,0,0,0.5) !important;
+}
+.envira-gallery-theme-showcase {
+  background: #555 !important;
+}
+/* ----------------------
+    Client Login Page
+------------------------*/
+.sp_form_element.sp_form_button > input {
+  margin-top: 5px;
+}
+.sp_form_element.sp_form_button > input,
+.sp_form_element.sp_form_button > input:visited {
+  color: #fff;
+  background-color: #555;
+  border: none;
+}
+.sp_form_element.sp_form_button > input:hover,
+.sp_form_element.sp_form_button > input:active {
+  color: #fff;
+  background-color: #ababab;
+  border: none;
+}
+.sp_form_element.sp_form_button > input:focus,
+.sp_form_element.sp_form_button > input:active.focus {
+  outline: 5px auto #000;
+}
